@@ -9,7 +9,7 @@ export default function Home() {
       <div className="snap-start w-screen h-screen flex items-center justify-center">
         <Homepage/>
       </div>
-      <div className="snap-start w-[100%] h-screen  items-center justify-center bg-red-500">
+      <div className="snap-start w-[100%] h-screen  items-center justify-center">
         <About/>
       </div>
       <div className="snap-start w-screen h-screen  items-center justify-center  bg-black">

@@ -3,7 +3,7 @@ import React from "react";
 
 const Project = () => {
   return (
-    <div className="overflow-x-auto py-4"> {/* Enable horizontal scrolling */}
+    <div className="overflow-x-auto py-4 mx-1"> {/* Enable horizontal scrolling */}
       {/* Heading for the Projects Section */}
       <h2 className="text-2xl font-bold text-center text-white mb-4">
         Projects
@@ -24,7 +24,7 @@ const Project = () => {
             Built a personalized movie recommendation app using Google-Gemini APIs for tailored suggestions. Integrated Firebase Authentication with email, password, and social login options. Utilized React-Redux for efficient state management, enhancing performance.
           </p>
           <a
-            href="https://your-project-link.com" // Replace with your actual link
+            href="https://github.com/nikhiltanna/netflix-gemini" // Replace with your actual link
             target="_blank"
             rel="noopener noreferrer"
             className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white py-1 px-4 rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100"
@@ -46,7 +46,7 @@ const Project = () => {
             Created a dynamic video platform using the YouTube API to source, display, and manage video content with real-time updates. Implemented debounced search for smooth performance, continuous streaming, and nested comment threads for an interactive experience. Enhanced with live chat for real-time community engagement and user interaction.
           </p>
           <a
-            href="https://your-project-link.com" // Replace with your actual link
+            href="https://github.com/nikhiltanna/youtube-clone" // Replace with your actual link
             target="_blank"
             rel="noopener noreferrer"
             className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white py-1 px-4 rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100"
@@ -68,7 +68,7 @@ const Project = () => {
             Developed a responsive web app leveraging the Swiggy live API to fetch real-time restaurant data. Built with Redux Toolkit, Parcel, React Router, and Tailwind CSS, enabling users to search restaurants, view details and menus, and manage their cart seamlessly. Designed for an intuitive and engaging user experience.
           </p>
           <a
-            href="https://your-project-link.com" // Replace with your actual link
+            href="https://github.com/nikhiltanna/Food-Villa" // Replace with your actual link
             target="_blank"
             rel="noopener noreferrer"
             className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white py-1 px-4 rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100"
