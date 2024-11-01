@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import { FaClock } from 'react-icons/fa';
 
 const Project = () => {
   return (
@@ -77,6 +78,10 @@ const Project = () => {
           </a>
         </div>
       </div>
+      <div className="flex justify-center mt-5"> {/* Adjust h-16 to the desired height */}
+  <FaClock style={{ marginRight: '8px', color: 'white',  marginTop:'5px'}} />
+  <p className="text-white" style={{ margin: 0 }}>More Projects coming soon</p>
+</div>
     </div>
   );
 };
